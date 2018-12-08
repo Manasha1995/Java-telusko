@@ -16,6 +16,14 @@ public class Variables {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int i = 10;
+        float f = 10;
+        double d = 10;
+        
+        //int 12 = 5.5;
+        float f2 = 5.5f;
+        double d2 = 5.5;
+
     }
     
 }
