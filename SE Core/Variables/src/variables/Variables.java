@@ -58,8 +58,19 @@ public class Variables {
         
         
         /*---------------- ADDING INT AND DOUBLE NUMBERS----------------*/
+        int i6 = 10;
+        double d6 = 10.6;
+        System.out.println("/*---------------- ADDING INT AND DOUBLE NUMBERS----------------*/");
+        System.out.printf("Sum of %d and %f is %f\n",i6,d6,(i6+d6));
+        System.out.printf("Sum of %d and %.2f is %.2f\n",i6,d6,(i6+d6));
+        System.out.printf("Sum of %d and %d is %d\n\n",i6,(int)d6,(int)(i6+d6));
         
         /*---------------- ADDING DOUBLE AND FLOAT NUMBERS----------------*/
+        double d7 = 10.5;
+        float f7 = 10.25f;
+        System.out.println("/*---------------- ADDING DOUBLE AND FLOAT NUMBERS----------------*/");
+        System.out.println("Sum of "+d7+" and "+f7+" is "+(d7+f7));
+        System.out.printf("Sum of %f and %f is %f\n\n",d7,f7,(d7+f7));
 
     }
     
